@@ -1,0 +1,28 @@
+{
+  "name": "@chopshop/tz",
+  "version": "1.0.0",
+  "description": "IANA Time Zone",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf lib && tsc --declaration -p ./tsconfig.json --outDir lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddoronin/tz.git"
+  },
+  "keywords": [
+    "IANA",
+    "tz"
+  ],
+  "author": "Dima Doronin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddoronin/tz/issues"
+  },
+  "homepage": "https://github.com/ddoronin/tz#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
