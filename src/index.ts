@@ -1,1 +1,1 @@
-import { TZ } from './tz';
+export { TZ } from './tz';
